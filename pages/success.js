@@ -20,11 +20,10 @@ export default function Success(props) {
       <main className={styles.form}>
         <h1 className={styles.h1}>Success</h1>
         <h4>Form Submited Successfully</h4>
-        <p>responsconsole.log to</p>
-        <p>base on the requirements I </p>
+        <p>check console.log to verify</p>
 
         <button className={styles.button} onClick={onClick}>
-          <Link href='' /> Go back
+          Go back
         </button>
       </main>
     </div>
