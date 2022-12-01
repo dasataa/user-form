@@ -19,7 +19,7 @@ export default function Success(props) {
       <main className={styles.form}>
         <h1 className={styles.h1}>Success</h1>
         <h4>Form Submited Successfully</h4>
-        <p>check console.log to see if the data went through, it kept giving me the 500 error</p>
+        <p>check console.log to see if the data went through, it kept giving me the 500 error (Internal Server Error)</p>
 
         <button className={styles.button} onClick={onClick}>
           Go back

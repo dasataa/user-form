@@ -18,7 +18,7 @@ export const Register = () => {
     fullname,
     email,
     password,
-    confirmPassword,
+    // confirmPassword,
     occupations,
     states,
     name,
@@ -116,7 +116,7 @@ export const Register = () => {
     console.log(sendData);
     console.log('new user added');
 
-    router.push({ pathname: '/success', query: values });
+    router.push({ pathname: '/success'});
   };
 
   const onChangeInput = (e) => {
